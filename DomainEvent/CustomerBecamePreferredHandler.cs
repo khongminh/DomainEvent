@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace DomainEvent
 {
-	class Program
+	public class CustomerBecamePreferredHandler : Handles<CustomerBecamePreferred>
 	{
-		static void Main(string[] args)
+		public void Handle(CustomerBecamePreferred args)
 		{
+			
 		}
 	}
 }
